@@ -13,7 +13,7 @@ const createTuit = async (req, res) => {
     newTuit.image ="NASA.jpg";
     newTuit.handle="@nasa";
     newTuit.userName="NASA";
-    newTuit.time="2h";
+    newTuit.time="1h";
     newTuit.retuits= 0;
     newTuit.replies = 0;
    // tuits.push(newTuit);
