@@ -9,6 +9,7 @@ const schema = mongoose.Schema({
            userName: String,
            time: String,
            retuits: Number,
-           replies: Number
+           replies: Number,
+           title: String,
        }, {collection: 'tuits'});
 export default schema;

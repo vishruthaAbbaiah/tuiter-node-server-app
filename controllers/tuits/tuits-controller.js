@@ -16,6 +16,7 @@ const createTuit = async (req, res) => {
     newTuit.time="1h";
     newTuit.retuits= 0;
     newTuit.replies = 0;
+    newTuit.title = newTuit.tuit;
    // tuits.push(newTuit);
     const insertedTuit = await tuitsDao
         .createTuit(newTuit);
